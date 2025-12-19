@@ -13,7 +13,7 @@ namespace UnityRoyale
         private bool act = false;
         private Coroutine actingCoroutine;
 
-		public float opponentLoopTime = 5f;
+		public float opponentLoopTime = 1f;
 
         public void LoadDeck()
         {
