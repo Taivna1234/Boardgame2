@@ -9,7 +9,7 @@ namespace UnityRoyale
     {
         public void OnStartClick()
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("Main");
         }
 
         public void OnExitClick()
@@ -19,6 +19,10 @@ namespace UnityRoyale
 #else
         Application.Quit();
 #endif
+        }
+        public void OnGuideClick()
+        {
+            SceneManager.LoadScene("GuideScene");
         }
 
     }
